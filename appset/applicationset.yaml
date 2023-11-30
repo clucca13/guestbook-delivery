@@ -5,7 +5,7 @@ metadata:
 spec:
   generators:
   - git:
-      repoURL: https://git.harness.io/6_vVHzo9Qeu9fXvj-AcbCQ/default/Platform_Demo/guestbook-delivery.git
+      repoURL: https://github.com/clucca13/guestbook-delivery.git
       revision: HEAD
       files:
       - path: "cluster-config/**/config.json"
@@ -19,7 +19,7 @@ spec:
     spec:
       project: default
       source:
-        repoURL: https://git.harness.io/6_vVHzo9Qeu9fXvj-AcbCQ/default/Platform_Demo/guestbook-delivery.git
+        repoURL: https://github.com/clucca13/guestbook-delivery.git
         targetRevision: HEAD
         path: "base"
         kustomize:
